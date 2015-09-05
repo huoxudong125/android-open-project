@@ -623,6 +623,11 @@ https://github.com/siyamed/android-shape-imageview/raw/master/images/all-samples
 可从 URL 或 contact address book 加载图片的 ImageView，支持缓存  
 项目地址：https://github.com/loopj/android-smart-image-view  
 
+1. PhotoView  
+支持双指/双击缩放的ImageView,支持从一个PhotoView缩放到另外一个PhotoView(点击图片放大预览),相对于其他PhototView有更加平滑的缩放,平移的动画,并且支持所有的ScaleType,可以作为普通的ImageView使用  
+项目地址：https://github.com/bm-x/PhotoView  
+效果图：![Renderings](https://github.com/bm-x/PhotoView/raw/master/demo1.gif)    
+
 #### 七、ProgressBar
 1. SmoothProgressBar  
 水平进度条  
@@ -1180,6 +1185,18 @@ Activity 切换动画，包括渐变、flip、某个位置进入等等
 针对 View 的各种动画  
 项目地址：https://github.com/2359media/EasyAndroidAnimations  
 
+1. ViewAnimation    
+对android view 动画进行封装,实现起更简单，自带三种常见运动路径，其他的可自定义  
+项目地址：https://github.com/guohuanwen/ViewAniamtion  
+效果图：![ViewAnimation](https://github.com/guohuanwen/ViewAniamtion/blob/master/sreenshots/AnimationGif.gif)  
+APP 示例：QQ名片圈圈效果  
+
+1. TaiJIView  
+一个太极加载动画，中国风  
+项目地址：https://github.com/guohuanwen/TaiJIView  
+效果图：![TaiJIView](https://github.com/guohuanwen/TaiJIView/blob/master/screenshots/taiji0.gif)  
+
+
 1. android-lockpattern  
 Android 的图案密码解锁  
 项目地址：https://code.google.com/p/android-lockpattern/  
@@ -1469,7 +1486,8 @@ TwistVolley 是对 Volley 的一个封装库。提供类似 Picasso 一样的串
 项目地址：https://github.com/TwistedEquations/TwistVolley  
 
 #### 四、数据库 orm 工具包
-orm 的 db 工具类，简化建表、查询、更新、插入、事务、索引的操作  
+orm 的 db 工具类，简化建表、查询、更新、插入、事务、索引的操作 
+
 1. greenDAO  
 Android Sqlite orm 的 db 工具类  
 项目地址：https://github.com/greenrobot/greenDAO  
@@ -2066,6 +2084,32 @@ Demo 地址： https://github.com/handsomezhou/PinyinSearchLibrary/blob/master/e
 效果图：![Renderings](https://github.com/handsomezhou/PinyinSearchLibrary/blob/master/external_res/image/T9_search.png)  
 https://github.com/handsomezhou/PinyinSearchLibrary/blob/master/external_res/image/Qwerty_search.png  
 APP 示例： 通讯录应用，微信电话本  
+
+1.PrainView  
+PaintView 是一个画图工具:  
+可直接使用设定按钮来实现已拥有的方法，且拓展性强  
+基础功能：更换颜色、更换橡皮、以及更换橡皮和笔的粗细、清屏、倒入图片  
+特殊功能：保存画笔轨迹帧动画、帧动画导入导出、ReDo和UnDo  
+项目地址：[Paintview](https://github.com/lfkdsk/JustWeTools)  
+效果图：![p1](https://github.com/lfkdsk/JustWeTools/blob/master/picture/gif.gif)  
+        ![p2](https://github.com/lfkdsk/JustWeTools/blob/master/picture/io.gif)  
+demo地址：[apk地址](https://github.com/lfkdsk/JustWeTools/blob/master/demo/DrawAPicture.apk)
+原理解析：[PaintView 绘图控件解析](http://www.cnblogs.com/lfk-dsk/p/4768850.html)
+
+1.CodeView
+CodeView代码查看／修改工具: 基于WebView制作的代码编辑器,实现代码高亮，暗色主题  
+项目地址：[CodeView](https://github.com/lfkdsk/JustWeTools)  
+效果图：![p3](https://github.com/lfkdsk/JustWeTools/blob/master/picture/accomplish.png)  
+        ![p4](https://github.com/lfkdsk/JustWeTools/blob/master/picture/edit.png)  
+demo地址：[apk地址](https://github.com/lfkdsk/JustWeTools/blob/master/demo/JustWeTools.apk)  
+
+1.ExplorerView
+文件浏览器：继承自ListView，可拓展性强，可进行文件类型分析  
+项目地址：[CodeView](https://github.com/lfkdsk/JustWeTools)  
+效果图：![p5](https://github.com/lfkdsk/JustWeTools/blob/master/picture/explorer1.png)  
+![p6](https://github.com/lfkdsk/JustWeTools/blob/master/picture/explorer2.png)  
+demo地址：[apk地址](https://github.com/lfkdsk/JustWeTools/blob/master/demo/JustWeTools.apk)  
+
 
 ## 第三部分 优秀项目
 主要介绍那些 Android 还不错的完整项目，目前包含的项目主要依据是项目有意思或项目分层规范比较好。  
